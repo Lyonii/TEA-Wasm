@@ -1,0 +1,16 @@
+{
+  "name": "@tea/tea-wasm",
+  "version": "0.1.0",
+  "files": [
+    "tea_wasm_bg.wasm",
+    "tea_wasm.js",
+    "tea_wasm_bg.js",
+    "tea_wasm.d.ts"
+  ],
+  "module": "tea_wasm.js",
+  "types": "tea_wasm.d.ts",
+  "sideEffects": [
+    "./tea_wasm.js",
+    "./snippets/*"
+  ]
+}
